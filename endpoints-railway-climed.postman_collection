@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "5804ccc1-d01d-4bda-87bc-91c469078a27",
+		"name": "climed M3S07",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28335713"
+	},
+	"item": [
+		{
+			"name": "new-medico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/new-medico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"new-medico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list-medicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/list-medicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"list-medicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-medico",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medico/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medico",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleted-medico",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
